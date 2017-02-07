@@ -5,15 +5,15 @@ $router = new AltoRouter();
 
 // map homepage
 $router->map( 'GET', '/', function() {
-	require __DIR__ . '/home.php';
+	require __DIR__ . '/api/home.php';
 });
 
 $router->map( 'GET', '/projects', function() {
-	require __DIR__ . '/projects-get.php';
+	require __DIR__ . '/api/projects-get.php';
 });
 
 $router->map( 'POST', '/projects', function() {
-	require __DIR__ . '/projects-post.php';
+	require __DIR__ . '/api/projects-post.php';
 });
 
 // match current request url

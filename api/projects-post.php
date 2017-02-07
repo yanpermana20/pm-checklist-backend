@@ -1,6 +1,6 @@
 <?php
-include 'header.php';
-include 'connect.php';
+include '../header.php';
+include '../connect.php';
 
 $post = json_decode(trim(file_get_contents("php://input")));
 
