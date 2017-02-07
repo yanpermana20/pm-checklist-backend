@@ -1,5 +1,6 @@
 {
     "require": {
-        "ktamas77/firebase-php": "dev-master"
+        "ktamas77/firebase-php": "dev-master",
+        "altorouter/altorouter": "1.1.0"
     }
 }
