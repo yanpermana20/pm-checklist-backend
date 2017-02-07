@@ -9,7 +9,11 @@ $router->map( 'GET', '/', function() {
 });
 
 $router->map( 'GET', '/projects', function() {
-	require __DIR__ . '/get-projects.php';
+	require __DIR__ . '/projects-get.php';
+});
+
+$router->map( 'POST', '/projects', function() {
+	require __DIR__ . '/projects-post.php';
 });
 
 // match current request url
